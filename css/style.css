@@ -1,21 +1,117 @@
 /*-------- Start Body style----------*/
+body{
+    font-family: 'Poppins', ;
+    font-size: 18px;
 
-
+}
+.row{
+    margin: 20px 0px;
+}
 
 /*-------- End Body style----------*/
-/*-------- Start Header style----------*/
+/*-------- Start fixed style----------*/
+.buy-now-button{
+    background-color: #000000;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
 
+}
+
+p{
+    color: #707070;
+}
+/*-------- Start fixed style----------*/
+/*-------- Start Header style----------*/
+.logo{
+    width: 150px;
+}
+.navbar{
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 
 
 /*-------- End Header style----------*/
 /*-------- Start main style----------*/
+.slider h1{
+    color: #1F1F1F;
+}
+.card{
+    box-shadow: 0 0 20px #0000001f;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #0000007a;
+}
+.card img{
+    margin: auto;
+    width: 150px;
+    height: auto;
+    padding: 30px 0px 0px 0px;
 
+}
+.card h5{
+    color: #1F1F1F;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+.card p{
+    padding: 0px 5px;
+}
 
+.first-product-section-heading{
+    padding: 30px 0px;
+    text-transform: uppercase;
+}
 
+.see-more-button a{
+    color: #FF9D00;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.see-more-button a:hover{
+    color: white;
+    background-color: #FF9D00;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.second-product-section-heading{
+    padding: 30px 0px;
+    text-transform: uppercase;
+}
 
+/*----- start categories Section style--------*/
+.categories-header{
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    padding: 20px 10px;
+}
+.first-images img{
+    box-shadow: 0 0 10px #000000;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin: auto;
+}
 
-
+.sec-trd-images img{
+    box-shadow: 0 0 10px #000000;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin: 20px 0px 10px 0px;
+    text-align: center;
+}
+/*----- start categories Section style--------*/
 /*-------- End main style----------*/
 /*-------- Start Footer style----------*/
 
