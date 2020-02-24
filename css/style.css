@@ -1,8 +1,10 @@
 /*-------- Start Body style----------*/
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', ;
     font-size: 18px;
-
 }
 .row{
     margin: 20px 0px;
@@ -25,7 +27,7 @@ p{
 }
 /*-------- Start fixed style----------*/
 /*-------- Start Header style----------*/
-.logo{
+.logo a img{
     width: 150px;
 }
 .navbar{
@@ -33,7 +35,12 @@ p{
     font-weight: bold;
 }
 
-
+.slider-section{
+    background-image: url("../images/bg.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
 
 /*-------- End Header style----------*/
 /*-------- Start main style----------*/
@@ -80,7 +87,7 @@ p{
 .see-more-button a:hover{
     color: white;
     background-color: #FF9D00;
-    padding: 5px 10px;
+    padding: 10px 20px;
     text-decoration: none;
     text-transform: capitalize;
     border-radius: 5px;
@@ -97,23 +104,61 @@ p{
     margin: auto;
     padding: 20px 10px;
 }
+h1.categories-header::after {
+    content: "";
+    display: block;
+    height: 8px;
+    background-image: linear-gradient(to right, #FF9C35,#FFD019);
+    width: 60px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 9px;
+}
 .first-images img{
-    box-shadow: 0 0 10px #000000;
-    padding: 20px 20px;
-    border-radius: 10px;
+    box-shadow:0 0 20px 0px #cccccc;
+    padding: 50px 60px;
+    border-radius: 0px 20px 0px 50px;
+    margin: auto;
+    transition: 0.5s;
+}
+.first-images img:hover{
+    box-shadow:0 0 20px 0px #949494;
+    padding: 50px 60px;
+    border-radius: 20px 0px 50px 0px;
     margin: auto;
 }
 
 .sec-trd-images img{
-    box-shadow: 0 0 10px #000000;
-    padding: 20px 20px;
-    border-radius: 10px;
+    box-shadow:0 0 20px 0px #cccccc;
+    padding: 50px 60px;
+    border-radius: 25px 0px 50px 0px;
     margin: 20px 0px 10px 0px;
     text-align: center;
+    transition: 0.5s;
+}
+.sec-trd-images img:hover{
+    box-shadow:0 0 20px 0px #949494;
+    padding: 50px 60px;
+    border-radius: 0px 25px 0px 50px;
+    margin: 20px 0px 10px 0px;
+    text-align: center;
+}
+.big-images{
+    overflow: hidden;
+}
+.big-images img{
+    width: 580px;
+    transition: 0.5s;
+}
+.big-images img:hover{
+    width: 580px;
+    transform: scale(1.1);
 }
 /*----- start categories Section style--------*/
 /*-------- End main style----------*/
 /*-------- Start Footer style----------*/
 
-
+footer{
+    padding-top: 100px;
+}
 /*-------- End Footer style----------*/
